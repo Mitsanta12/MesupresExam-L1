@@ -1,0 +1,28 @@
+div.PDF .container{
+    background-image:white;
+}
+.main_title{
+    text-align: center;
+}
+.card-title{
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif!important;
+    font-weight: 300!important;
+    font-size: 23px;
+}
+p.card-text a{
+    color: white;
+    border: white;
+}
+.bg-theme6 {
+    background-color: #283e47 !important;
+}
+.text-gris{
+    color: rgba(255,255,255,0.6)!important;
+}
+h1{
+    text-align: center;
+}
+hr{
+    border: 2px solid gray ;
+    margin-bottom: 15px !important ;
+}

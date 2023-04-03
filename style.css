@@ -1,0 +1,203 @@
+*{
+  scroll-behavior: smooth;
+}
+ol, ul {
+	list-style: none;
+	
+}
+
+        
+.position1{
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    
+}
+
+.pl-6{
+    padding-left:4%;
+}
+.pr-6{
+    padding-right: 3%;
+}
+.position2{
+    position: fixed;
+    right: 0%; 
+    top: 0%; 
+}
+.bg-green{
+    background-color:#05B169 !important;
+}
+
+.navbar-fixed-top.scrolled {
+    background-color: #05B169 !important;
+    transition: 200ms linear;
+    z-index: +1;
+   
+  }
+  #photo {
+    z-index: -3;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80vh;
+  }
+  .photo {
+    z-index: -3;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80vh;
+  }
+.darkopacity{
+  background-color: rgba(27, 27, 27, 0.63);
+  z-index: -2;
+  width: 100%;
+  height:100%
+}
+
+/*Warpper*/
+#header-wrapper {
+  background-color:  #ecf5f1; /*Couleur an'le header*/
+  background-position: top left, center center;
+  background-size: auto, cover;
+  padding: 3em 0;
+}
+
+#main-wrapper {
+  background: #fff;
+}
+
+#footer-wrapper {
+  background:#05B169;
+  position: relative;
+
+  padding: 7em 0 7em 0;
+}
+
+.wrapper {
+  padding: 4em 0 4em 0;
+}
+
+  .wrapper > .inner {
+    position: relative;
+   
+  }
+
+  .wrapper.style1 {
+    position: relative;
+    text-shadow: 1px 1px 0 #fff;
+    background-color: #fff;
+  
+    background-repeat: no-repeat, no-repeat, repeat;
+    background-size: 100% 15em, 100% 15em, auto auto;
+    background-position: top center, bottom center, top left;
+  }
+
+  .wrapper.style3 {
+    position: relative;
+    text-shadow: 1px 1px 0 #fff;
+    background-color: rgb(241, 239, 239);
+    background-repeat: no-repeat, repeat;
+    background-size: 100% 15em, auto auto;
+    background-position: top center, top left;
+  }
+
+  /*Les cartes de pdf à télécharger dans l'actualité*/
+  .card-title{
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif!important;
+    font-weight: 300!important;
+    font-size: 23px;
+}
+p.card-text a{
+    color: white;
+    border: white;
+}
+  .bg-theme6 {
+    background-color: #283e47 !important;
+}
+.text-gris{
+    color: rgba(255, 255, 255, 0.986)!important;
+}
+ /* FIN Des cartes de pdf à télécharger dans l'actualité*/
+
+ /*card shadow*/
+ #demoObject {
+  -webkit-box-shadow: 5px 5px 7px 5px #312F28; 
+  box-shadow: 5px 5px 7px 5px #312F28;
+  background: #F4EEF2;
+  margin-bottom: 4.5rem !important;
+  }
+  body#tinymce {
+  background: #FFFFFF
+  }
+
+  #demoObject2 {
+    -webkit-box-shadow: 8px 0px 0px 0px #DCD0C0, 0px 8px 0px 0px red, -8px 0px 0px 0px #4E4E56, 0px 0px 0px 8px #05B169 , 5px 5px 0px 5px rgba(239, 240, 236, 0.01); 
+    box-shadow: 8px 0px 0px 0px #DCD0C0, 0px 8px 0px 0px rgba(247, 7, 7, 0.925), -8px 0px 0px 0px #4E4E56, 0px 0px 0px 8px #05B169 , 5px 5px 0px 5px rgba(254,255,245,0.01);
+    background: #FFFFFF;
+    }
+    body#tinymce {
+    background: #F1F1F1
+    }
+
+  /*Text shadow*/
+  #demotext {
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC, 24px 17px 2px rgba(41,18,11,0.3);
+    color: #444444;
+    background: #FFFFFF;
+    }
+
+
+   
+.org{
+  border: 2px solid green;
+  margin: 15px;
+  padding: 5px;
+}
+
+/*responsive*/
+@media screen and (max-width: 980px) {
+  .photo {
+    z-index: -3;
+   position: relative;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40vh;
+  }
+.darkopacity{
+  background-color: rgba(27, 27, 27, 0.63);
+  z-index: -2;
+  width: 100%;
+  height: 40vh;
+}
+
+}
+
+@media screen and (max-width: 736px){
+
+}
+
+@media screen and (max-width: 1280px) {
+
+}
+
+@media screen and (max-width: 980px){
+
+}
+
+
+
+    
+    
+   
